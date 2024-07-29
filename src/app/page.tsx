@@ -7,11 +7,12 @@ const Five = dynamic(() => import('../components/Five/Five'), { ssr: false })
 const Six = dynamic(() => import('../components/Six/Six'), { ssr: false })
 const Seven = dynamic(() => import('../components/Seven/Seven'), { ssr: false })
 const Eight = dynamic(() => import('../components/Eight/Eight'), { ssr: false })
+const Lights = dynamic(() => import('../components/Lights/Lights'), { ssr: false })
 
 export default function Home() {
   return (
     <main>
-        <Eight/>
+        <Lights/>
     </main>
   );
 }
