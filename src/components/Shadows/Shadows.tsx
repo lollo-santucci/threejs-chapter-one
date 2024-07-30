@@ -5,7 +5,7 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import GUI from 'lil-gui'
 
-const Lights: React.FC = () => {
+const Shadows: React.FC = () => {
     const mountRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
@@ -220,4 +220,4 @@ const Lights: React.FC = () => {
     return <div ref={mountRef} style={{ width: '100%', height: '100vh' }} />;
 };
 
-export default Lights;
+export default Shadows;
