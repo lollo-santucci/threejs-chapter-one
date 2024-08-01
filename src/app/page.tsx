@@ -12,11 +12,12 @@ const Shadows = dynamic(() => import('../components/Shadows/Shadows'), { ssr: fa
 const HauntedHouse = dynamic(() => import('../components/HauntedHouse/HauntedHouse'), { ssr: false })
 const Particles = dynamic(() => import('../components/Particles/Particles'), { ssr: false })
 const Galaxy = dynamic(() => import('../components/Galaxy/Galaxy'), { ssr: false })
+const Scroll = dynamic(() => import('../components/Scroll/Scroll'), { ssr: false })
 
 export default function Home() {
   return (
     <main>
-        <Galaxy/>
+        <Scroll/>
     </main>
   );
 }
